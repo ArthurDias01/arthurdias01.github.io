@@ -138,3 +138,16 @@ for (let i = 0; i < navigationLinks.length; i++) {
     }
   });
 }
+
+// create  function to send form data to google sheets
+// {FullName, Email, Message}
+// const handleSubmit = async function () {
+//   console.log(e);
+//   return await fetch({
+//     method: "POST",
+//     url: "https://docs.google.com/forms/u/0/d/e/1FAIpQLSdYT02QbgPrVBiO2fXysDoWTTsB_wlBbWqzcYmPognk4ku0Qw/formResponse",
+//     formData: {
+//       ...formInputs.entries(),
+//     },
+//   });
+// };
